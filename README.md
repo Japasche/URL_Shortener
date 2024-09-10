@@ -1,2 +1,3 @@
 # URL_Shortener
-Creating a URL shortener as a fun project
+## Overview
+This Repository contains documentation and code for a URL shortener website created using python and Django.

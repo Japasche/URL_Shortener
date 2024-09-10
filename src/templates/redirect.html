@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <div class = "jumbotron">
+        <center>
+            <h4>URL: "{{ obj.original_url }}"</h4>
+            <hr></hr>
+            <h5>Your Request: "{{ obj.short_url }}"</h5>
+            <a href="{{ obj.original_url }}"><button type="button" class="btn btn-primary">Go To Website</button></a>
+        </center>
+    </div>
+{% endblock content %}
